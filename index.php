@@ -18,6 +18,10 @@ $movies = getMovies($filmDirectory, $allowedExtensions);
 <body>
     <header>
         <h1>La Mia Collezione Film</h1>
+        <nav>
+            <a href="index.php">Film</a> | 
+            <a href="series.php">Serie TV</a>
+        </nav>
     </header>
 
     <div class="movie-grid">
