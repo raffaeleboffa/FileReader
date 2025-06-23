@@ -1,4 +1,121 @@
-/* Stili aggiuntivi per le serie TV */
+/* Stili Base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    padding: 20px;
+    grid-column: 1 / -1;
+}
+
+/* Stili per i Film */
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.movie-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.movie-card:hover {
+    transform: scale(1.03);
+}
+
+.movie-poster {
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(45deg, #3498db, #2c3e50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.movie-card h3 {
+    padding: 0 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.movie-card a {
+    display: block;
+    text-align: center;
+    background: #3498db;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 0 0 8px 8px;
+}
+
+.movie-card a:hover {
+    background: #2980b9;
+}
+
+/* Stili per il Player Video */
+.player-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.player-container video {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 8px 15px;
+    background: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.back-button:hover {
+    background: #2980b9;
+}
+
+/* Stili per le Serie TV */
 .series-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -29,6 +146,26 @@
     font-size: 1.2rem;
 }
 
+.show-card h2 {
+    padding: 0 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.show-card a {
+    display: block;
+    text-align: center;
+    background: #e74c3c;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 0 0 8px 8px;
+}
+
+.show-card a:hover {
+    background: #c0392b;
+}
+
 .seasons-container {
     max-width: 800px;
     margin: 20px auto;
@@ -43,6 +180,11 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.season h2 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
 .episodes-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -54,11 +196,17 @@
     padding: 8px;
     background: #f8f9fa;
     border-radius: 4px;
+    transition: background 0.2s;
+}
+
+.episode:hover {
+    background: #e9ecef;
 }
 
 .episode a {
     color: #3498db;
     text-decoration: none;
+    display: block;
 }
 
 .episode a:hover {
