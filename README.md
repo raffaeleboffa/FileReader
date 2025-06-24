@@ -15,13 +15,9 @@ Questo lettore acquisisce i file video da un hard disk esterno presenti nella ca
 **Gerarchia cartelle**
 
 C:\xampp\htdocs\FileReader\
-
 │── index.php          (Homepage e pagina film)
-
 │── series.php         (Pagina serie TV)
-
 │── player.php         (Player video)
-
 │── style.css          (Stile CSS)
 
 │── functions.php      (Funzioni PHP)
