@@ -15,15 +15,15 @@ Questo lettore acquisisce i file video da un hard disk esterno presenti nella ca
 **Gerarchia cartelle**
 
 C:\xampp\htdocs\FileReader\
-I── index.php          (Homepage e pagina film)
-I── series.php         (Pagina serie TV)
-I── player.php         (Player video)
-I── style.css          (Stile CSS)
-I── functions.php      (Funzioni PHP)
-I── film\              (Collegamento simbolico a E:\film)
+I── index.php
+I── series.php
+I── player.php
+I── style.css
+I── functions.php
+I── film\ (Collegamento simbolico a E:\SerieTV)
 I   ├── La_vita_e_bella.mp4
 I   └── Doctor_strange.mp4
-I── serietv\           (Collegamento simbolico a E:\SerieTV)
+I── serietv\ (Collegamento simbolico a E:\SerieTV)
     ├── Breaking Bad\
     │   ├── S01E01.mp4
     │   └── ...
