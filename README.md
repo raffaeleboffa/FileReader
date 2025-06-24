@@ -13,24 +13,23 @@ Questo lettore acquisisce i file video da un hard disk esterno presenti nella ca
 3. eseguire questa stringa: mklink /D "C:\xampp\htdocs\FileReader\serietv" "E:\serietv"
 
 **Gerarchia cartelle**
-
 C:\xampp\htdocs\FileReader\
-├── index.php
-├── series.php
-├── player.php
-├── style.css
-├── functions.php
-├── film\ (Collegamento simbolico a E:\SerieTV)
-│   ├── La_vita_e_bella.mp4
-│   └── Doctor_strange.mp4
-└── serietv\ (Collegamento simbolico a E:\SerieTV)
-    ├── Breaking Bad\
-    │   ├── S01E01.mp4
-    │   └── ...
-    ├── Stranger Things\
-    │   ├── S01E01.mp4
-    │   └── ...
-    └── ...
+- index.php
+- series.php
+- player.php
+- style.css
+- functions.php
+- film\ (Collegamento simbolico a E:\film)
+  - La_vita_e_bella.mp4
+  - Doctor_strange.mp4
+- serietv\ (Collegamento simbolico a E:\serietv)
+  - Breaking Bad\
+    - S01E01.mp4
+    - ...
+  - Stranger Things\
+    - S01E01.mp4
+    - ...
+  - ...
 
 __Ricorda di dividere in cartelle tutte le varie serie tv__
 
