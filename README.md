@@ -13,12 +13,19 @@ Questo lettore acquisisce i file video da un hard disk esterno presenti nella ca
 3. eseguire questa stringa: mklink /D "C:\xampp\htdocs\FileReader\serietv" "E:\serietv"
 
 **Gerarchia cartelle**
+
 C:\xampp\htdocs\FileReader\
+
 │── index.php          (Homepage e pagina film)
+
 │── series.php         (Pagina serie TV)
+
 │── player.php         (Player video)
+
 │── style.css          (Stile CSS)
+
 │── functions.php      (Funzioni PHP)
+
 │── film\              (Collegamento simbolico a E:\film)
     ├── La_vita_e_bella.mp4
     └── Doctor_strange.mp4
