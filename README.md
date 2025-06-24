@@ -1,19 +1,23 @@
 # FileReader
+
 Lettore File Video per Server Locale
 
 Questo lettore acquisisce i file video da un hard disk esterno presenti nella cartella "film" e/o "serietv"
 
 **Configurazione server locale:**
+
 1. Installare XAMPP o altri software simili in grado di istanziare un server locale
 2. Installare il repository nella cartella del PC "C:\xampp\htdocs\" (se si utilizza XAMPP), rinominando il repository "FileReader"
 
 **Configurazione web app:**
+
 1. Aprire il CMD in modalità amministratore
 2. eseguire questa stringa: mklink /D "C:\xampp\htdocs\FileReader\film" "E:\film"
 3. eseguire questa stringa: mklink /D "C:\xampp\htdocs\FileReader\serietv" "E:\serietv"
 
 **Gerarchia cartelle**
- C:\xampp\htdocs\FileReader\
+
+C:\xampp\htdocs\FileReader\
 - index.php
 - series.php
 - player.php
